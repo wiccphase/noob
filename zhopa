@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="1.jg" xml:lang="en" lang="en">
+<head>
+<title>
+Пелагеин лучший
+</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<div id="top">
+<div id="logg">
+<h1>Пелагеин Алескандр лучший</h1>
+</div>
+Почему лучший <input id="first_name">
+
+Еще раз скажи <input id="last_name">
+
+<button id="say">Отчитаться</button>
+
+<hr>
+
+<div id="result"></div>
+
+<script>
+
+function say_hi() {
+
+var fname = document.getElementById('first_name').value;
+
+var lname = document.getElementById('last_name').value;
+
+var html = 'Hello <b>' + fname + '</b> ' + lname;
+
+document.getElementById('result').innerHTML = html;
+
+}
+
+document.getElementById('say').addEventListener('click', say_hi);
+
+</script>
+</head>
+</div>
