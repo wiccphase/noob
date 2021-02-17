@@ -6,6 +6,7 @@
    position:absolute;
  top:80px;
   border: 4px double black;
+ padding: 20px;
 }
 
 
@@ -20,6 +21,7 @@
  position: absolute;
  left: 276px;
  text-align:left;
+ padding: 20px;
  top: 200px;
   
   border: 4px double black;
@@ -36,6 +38,7 @@
  width: 150px;
  height: 50px;
  left: 1217px;
+ padding: 20px;
  position: absolute;
  bottom: 1px;
  top: 200px;
@@ -47,6 +50,7 @@
   border: 4px double black;
  position: absolute;
  top: 530px;
+ padding: 20px;
  width: 1100px;
  left: 270px;
    
