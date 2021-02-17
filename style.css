@@ -17,6 +17,7 @@
  position: absolute;
  left: 250px;
  text-align:left;
+ top: 100px;
   
   border: 4px double black;
 }
@@ -34,7 +35,7 @@
  left: 900px;
  position: absolute;
  bottom: 1px;
- top: 50px;
+ top: 200px;
    
 }
 
@@ -42,7 +43,7 @@
 {
   border: 4px double black;
  position: absolute;
- top: 2500px;
+ top: 1500px;
    
  
 }
