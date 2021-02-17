@@ -1,7 +1,7 @@
 .block1
 {
  text-align: center;
- background-color:red;
+ 
 }
 
 
@@ -11,7 +11,14 @@
 
 .block2
 {
- 
+ width: 50%;
+ height: 60%;
 }
 
+
+.block3
+{
+ width: 50%;
+ height: 60%;
+}
 
