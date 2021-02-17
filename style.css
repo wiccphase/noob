@@ -1,8 +1,8 @@
 .block1
 {
  text-align: center;
-   padding: 10px;
- 
+   
+  border: 4px double black;
 }
 
 
@@ -17,7 +17,8 @@
  position: absolute;
  left: 250px;
  text-align:left;
-   padding: 10px;
+  
+  border: 4px double black;
 }
  .leftimg {
     float:right; /* Выравнивание по левому краю */
@@ -27,19 +28,21 @@
 
 .block3
 {
+  border: 4px double black;
  width: 500px;
  height: 1000px;
  left: 900px;
  position: absolute;
  bottom: 1px;
  top: 50px;
-   padding: 10px;
+   
 }
 
 .block4
 {
+  border: 4px double black;
  position: absolute;
  top: 2500px;
-   padding: 10px;
+   
  
 }
