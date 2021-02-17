@@ -17,9 +17,9 @@
  left: 150px;
  text-align:left;
 }
-.img
-{
- position: right;
+ .leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
 }
 
 
