@@ -17,7 +17,7 @@
  position: absolute;
  left: 250px;
  text-align:left;
- top: 200px;
+ top: 300px;
   
   border: 4px double black;
 }
@@ -43,7 +43,7 @@
 {
   border: 4px double black;
  position: absolute;
- top: 1100px;
+ top: 900px;
  width: 100%;
    
  
