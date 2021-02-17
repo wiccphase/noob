@@ -1,6 +1,6 @@
 .block1
 {
- width:60%;
+ width:53%;
  left:270px;
  text-align: center;
    position:absolute;
@@ -35,7 +35,7 @@
   border: 4px double black;
  width: 200px;
  height: 100px;
- left: 1120px;
+ left: 1220px;
  position: absolute;
  bottom: 1px;
  top: 200px;
@@ -46,7 +46,7 @@
 {
   border: 4px double black;
  position: absolute;
- top: 850px;
+ top: 550px;
  width: 60%;
  left: 270px;
    
