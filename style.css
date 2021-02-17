@@ -16,7 +16,7 @@
 .block2
 {
  width: 900px;
- height: 500px;
+ height: 350px;
  position: absolute;
  left: 320px;
  text-align:left;
@@ -35,7 +35,7 @@
   border: 4px double black;
  width: 200px;
  height: 100px;
- left: 920px;
+ left: 1120px;
  position: absolute;
  bottom: 1px;
  top: 200px;
@@ -46,7 +46,7 @@
 {
   border: 4px double black;
  position: absolute;
- top: 1250px;
+ top: 850px;
  width: 60%;
  left: 270px;
    
