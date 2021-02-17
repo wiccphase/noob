@@ -1,9 +1,7 @@
-.block1
-text-align:center;
+#block1
+{
 background-color: black;
-height: 250px;
-width: 250px;
-
+}
 
 
 
