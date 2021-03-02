@@ -1,9 +1,24 @@
 
 <html>
-  <head>
+  <head>\
+
+    <input type="date" max="2012-04-20" min="2012-04-10" value="2012-04-15"/>
+
+    <div id="clock"></div>
+    <script>
+    function clock(){
+  var date = new Date(),
+         hours = (date.getHours() < 10) ? '0' + date.getHours() : date.getHours(),
+         minutes = (date.getMinutes() < 10) ? '0' + date.getMinutes() : date.getMinutes(),
+         seconds = (date.getSeconds() < 10) ? '0' + date.getSeconds() : date.getSeconds();
+  document.getElementById('clock').innerHTML = hours + ':' + minutes + ':' + seconds;
+}
+setInterval(clock, 1000);
+clock();
+</script>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Pariki</title>
-  <link rel="stylesheet" type="text/css" href="style2.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
  </head>
 
   <div class="block1"> 
